@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberPet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Cyber Pet</header> 
+    <div class="board">
+        <button onclick="petOne.eating()" id="eat">Eat</button>
+        <button onclick="petOne.drinking()" id="drink">Drink</button>
+        <button onclick="petOne.sleeping()" id="sleep">Sleep</button>
+        <button id="wash">Wash</button>
+        <button id="toilet">Toilet</button>
+        <button id="play">Play</button>
+        <div>
+            <img id="petimage" src="img/egg.png">
+        </div>
+        <p id="petStatus"></p>
+    </div>
+    <script src="cyberpet.js"></script>  
+</body>
+</html>
